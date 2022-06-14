@@ -15,7 +15,7 @@ The **inputs**:
 - T1, T2, PD are the relaxation parameters and proton density.
 - PE_steps would for instance be 192 for 256 "partitions" (PE-steps in the innermost acquisition loop) with a partial Fourier factor of 6/8.
 
-There are **some lines that might need modification** for different simulations which are: 
+There are **some lines in the MP2RAGE_sd function that might need modification** for different simulations which are: 
 - line 38 for b1_scale (B1+); 
 - line 39 for initial phase in the RF phase cycling; 
 - line 41 for k-space centre; 
