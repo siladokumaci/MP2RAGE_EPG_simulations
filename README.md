@@ -1,5 +1,5 @@
 # MP2RAGE EPG Simulations
-Extended Phase Graph (EPG) Simulations of the MP2RAGE Sequence including T2 relaxation, diffusion, radio frequency spoiling, and B1+ variability
+Extended Phase Graph (EPG) Simulations of the MP2RAGE Sequence including T2 relaxation, diffusion, radio frequency spoiling, and B1+ variability.
 Transverse magnetization is not assumed to be zero but is fed into the next run as an input.
 
 The main function **MP2RAGE_sd** provides simulations of the MP2RAGE sequence signal behaviour using EPG Simulations.
