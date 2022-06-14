@@ -5,7 +5,7 @@ Transverse magnetization is not assumed to be zero but is fed into the next run 
 The main function **MP2RAGE_sd** provides simulations of the MP2RAGE sequence signal behaviour using EPG Simulations.
 MP2RAGE sequence is described in this reference: Marques JP, Kober T, Krueger G, van der Zwaag W, Van de Moortele PF, Gruetter R. MP2RAGE, a self bias-field corrected sequence for improved segmentation and T1-mapping at high field. Neuroimage. 2010;49:1271-1281.  
 
-The MP2RAGE_sd function requires **EPG_GRE2** and **EPG_GRE3** functions modified from the original EPG_GRE function and the **EPG-X codes** which are available at [https://github.com/mriphysics/EPG-X]
+The MP2RAGE_sd function requires **EPG_GRE2** and **EPG_GRE3** functions modified from the original EPG_GRE function and the **EPG-X codes** which are available at [https://github.com/mriphysics/EPG-X].
 
 The MP2RAGE_sd function can be called by **run_mp2rage_sd** function for WM/GM/CSF.
 
