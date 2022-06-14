@@ -33,7 +33,7 @@ is the result of storing the flip angles scaled by the B1+ and the TI1/TI2/TR_MP
 - Partitions is the number of PE steps in the innermost acquisition loop.
 - The signal evolution for the TI2 signal is stored in the last column starting from the 6th element so the k-space centre for this case will be (192/3 + 1) + 5 = 70th element of that column and the TI1 signal is stored in the penultimate column.
 
-The code can be written more efficiently but I hope you find it useful :)
+The code can be written more efficiently but I hope you find this version useful :)
 
 ## References ##
 The EPG-X codes are distributed under the MIT license. If you find them useful, please cite the publication below or the code itself:
