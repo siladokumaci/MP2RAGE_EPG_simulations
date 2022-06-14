@@ -31,8 +31,7 @@ There are **some lines in the MP2RAGE_sd function that might need modification**
 197 corresponds to 192 + 5. 192 is resulting from 256 "partitions" * 6/8 with the partial Fourier and 5
 is the result of storing the flip angles scaled by the B1+ and the TI1/TI2/TR_MP2RAGE times in the first 5 columns. 
 - Partitions is the number of PE steps in the innermost acquisition loop.
-- The signal evolution for the TI2 signal is stored in the last column starting from the 6th element so the k-space centre for this case will be (192/3 + 1) + 5 = 70th element of that column. 
-- TI1 signal is stored in the penultimate column.
+- The signal evolution for the TI2 signal is stored in the last column starting from the 6th element so the k-space centre for this case will be (192/3 + 1) + 5 = 70th element of that column and the TI1 signal is stored in the penultimate column.
 
 The code can be written more efficiently but I hope you find it useful :)
 
