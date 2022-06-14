@@ -9,7 +9,7 @@ The MP2RAGE_sd function requires **EPG_GRE2** and **EPG_GRE3** functions modifie
 
 The MP2RAGE_sd function can be called by **run_mp2rage_sd** function for WM/GM/CSF.
 
-The **inputs**:
+## INPUTS ##
 - TR is the repetition time of the GRE blocks.
 - number_of_reps is the total number of repetitions of the MP2RAGE to reach steady state.
 - T1, T2, PD are the relaxation parameters and proton density.
@@ -24,7 +24,7 @@ There are **some lines in the MP2RAGE_sd function that might need modification**
 - lines 147-149-151 if PD values different than 0.69, 0.82 or 1 are used for WM/GM/CSF;
 - and line 163 is for the name of the mat file saved from the simulations.
 
-The **outputs**:
+## OUTPUTS ##
 - It will produce files ending with the B1+ scale (for instance 1P2 for 120% B1+).
 - The outputs all_F0 will be the signals. For instance, for FA1 and FA2 changing from 1 to 10 degrees independently, 
 - all_F0 will be a 1 x 100 cell array. For the current case, each cell will be of size 197 x 10 where 
@@ -37,7 +37,7 @@ and the TI1 signal is stored in the penultimate column.
 
 The code can be written more efficiently but I hope you find it useful :)
 
-**References**
+## REFERENCES ##
 The EPG-X codes are distributed under the MIT license. If you find them useful, please cite the publication below or the code itself:
 1. Malik S, Teixeira RPAG, Hajnal JV. Extended phase graph formalism for systems with magnetization transfer and exchange. Magn Reson Med. 2018;80:767-779. 
 2. Malik S. (2017, August 8). mriphysics/EPG-X: First public version (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.840023
