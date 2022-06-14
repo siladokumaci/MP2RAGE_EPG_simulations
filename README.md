@@ -37,7 +37,7 @@ and the TI1 signal is stored in the penultimate column.
 
 The code can be written more efficiently but I hope you find it useful :)
 
-## REFERENCES ##
+## References ##
 The EPG-X codes are distributed under the MIT license. If you find them useful, please cite the publication below or the code itself:
 1. Malik S, Teixeira RPAG, Hajnal JV. Extended phase graph formalism for systems with magnetization transfer and exchange. Magn Reson Med. 2018;80:767-779. 
 2. Malik S. (2017, August 8). mriphysics/EPG-X: First public version (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.840023
