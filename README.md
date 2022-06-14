@@ -1,4 +1,4 @@
-# MP2RAGE_EPG_simulations
+# MP2RAGE EPG Simulations
 Extended Phase Graph (EPG) Simulations of the MP2RAGE Sequence including T2 relaxation, diffusion, radio frequency spoiling, and B1+ variability
 Transverse magnetization is not assumed to be zero but is fed into the next run as an input.
 
