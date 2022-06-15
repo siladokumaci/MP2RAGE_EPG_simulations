@@ -26,8 +26,8 @@ There are **some lines in the MP2RAGE_sd function that might need modification**
 
 ## OUTPUTS ##
 - It will produce files ending with the B1+ scale (for instance 1P2 for 120% B1+).
-- The outputs all_F0 will be the signals. For instance, for FA1 and FA2 changing from 1 to 10 degrees independently, 
-- all_F0 will be a 1 x 100 cell array. For the current case, each cell will be of size 197 x 10 where 
+- The outputs all_F0 will be the signals. For instance, for FA1 and FA2 changing from 1 to 10 degrees independently, all_F0 will be a 1 x 100 cell array. 
+- For the current case, each cell will be of size 197 x 10 where 
 197 corresponds to 192 + 5. 192 is resulting from 256 "partitions" * 6/8 with the partial Fourier and 5
 is the result of storing the flip angles scaled by the B1+ and the TI1/TI2/TR_MP2RAGE times in the first 5 columns. 
 - Partitions is the number of PE steps in the innermost acquisition loop.
