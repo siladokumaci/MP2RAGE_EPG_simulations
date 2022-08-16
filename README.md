@@ -16,13 +16,14 @@ The MP2RAGE_sd function can be called by **run_mp2rage_sd** function for WM/GM/C
 - PE_steps would for instance be 192 for 256 "partitions" (PE-steps in the innermost acquisition loop) with a partial Fourier factor of 6/8.
 
 There are **some lines in the MP2RAGE_sd function that might need modification** for different simulations which are: 
-- line 38 for b1_scale (B1+); 
-- line 39 for initial phase in the RF phase cycling; 
-- line 41 for k-space centre; 
-- lines 43-47 for TR_MP2RAGE/TI2/TI1/FA2/FA1;  
-- line 55 or 56 should be commented depending on partial Fourier; 
-- lines 147-149-151 if PD values different than 0.69, 0.82 or 1 are used for WM/GM/CSF;
-- and line 163 is for the name of the mat file saved from the simulations.
+- line 38 for inversion efficiency;
+- line 39 for b1_scale (B1+); 
+- line 40 for initial phase in the RF phase cycling; 
+- line 42 for k-space centre; 
+- lines 44-48 for TR_MP2RAGE/TI2/TI1/FA2/FA1;  
+- line 56 or 57 should be commented depending on partial Fourier; 
+- lines 148-150-152 if PD values different than 0.69, 0.82 or 1 are used for WM/GM/CSF;
+- and line 164 is for the name of the mat file saved from the simulations.
 
 ## OUTPUTS ##
 - It will produce files ending with the B1+ scale (for instance 1P2 for 120% B1+).
