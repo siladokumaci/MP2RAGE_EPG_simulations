@@ -46,5 +46,6 @@ The references for the EPG theory are:
 2. Hennig J. Echoes - how to generate, recognize, use or avoid them in MR-imaging sequences. Part II. Concepts Magn Reson. 1991;3:179-192. 
 3. Weigel M. Extended phase graphs: dephasing, RF pulses, and echoes - pure and simple. J Magn Reson Imaging. 2015;41:266-295.
 
-If you find the MP2RAGE simulation code useful, please cite the publication below along with the EPG-X code references above: 
+If you find the MP2RAGE simulation code useful, please cite the publication below along with the EPG-X code references above:
+
 Dokumacı AS, Aitken FR, Sedlacik J, et al. Simultaneous Optimization of MP2RAGE T1-weighted (UNI) and FLuid And White matter Suppression (FLAWS) brain images at 7T using Extended Phase Graph (EPG) Simulations. Magn Reson Med. 2023;89:937-950. doi: 10.1002/mrm.29479.
