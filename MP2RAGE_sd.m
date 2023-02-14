@@ -1,4 +1,4 @@
-function [F0_arr,Zn_arr,finit_arr,all_F0,all_Zn,all_finit,PE_steps]=MP2RAGE_sd(TR,T1,T2,PE_steps,number_of_reps,PD)
+function [F0_arr,Zn_arr,finit_arr,all_F0,all_Zn,all_finit,PE_steps]=MP2RAGE_sd_GitHub(TR,T1,T2,PE_steps,number_of_reps,PD)
 % EPG Simulations for MP2RAGE 
 % Author: Ayse Sila Dokumaci (ayse.dokumaci@kcl.ac.uk) 28.02.2020
 % This function requires EPG_GRE2 and EPG_GRE3 functions modified from the original EPG_GRE.m and the EPG-X codes available at https://github.com/mriphysics/EPG-X
@@ -48,7 +48,7 @@ for b1_scale = 0.5:0.1:1.4 % the loop for B1+ => this one would be 50% to 140% w
                         for fa1_scale= 1:10 % First Flip Angle [degrees] 
                             fa1 = (ones(1,PE_steps)*fa1_scale*b1_scale/180*pi)';
                             fa2 = (ones(1,PE_steps)*fa2_scale*b1_scale/180*pi)';
-                            if(TI2-TI1>PE_steps*TR)
+                            if(TI2-TI1>PE_steps*TR && MP2RAGE_TR > (TI2+TR*(PE_steps-kspace_centre+1)))
                                 count = count + 1;
                                 
                                 prep1=struct;
