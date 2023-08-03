@@ -9,6 +9,6 @@ PD_mp2rage_script_arr =[0.69 0.82 1];% PD values for WM/GM/CSF
 
 % 7.9 ms was the TR_GRE value that we used in the last protocol which had 256 partitions (PE steps in the innermost acquisition loop) 
 % with a partial Fourier factor of 6/8 which led to 192 steps here.
-for mp2rage_script_index = 1:3 
+parfor mp2rage_script_index = 1:3 
    MP2RAGE_sd(7.9,T1_mp2rage_script_arr(mp2rage_script_index),T2_mp2rage_script_arr(mp2rage_script_index),192,5,PD_mp2rage_script_arr(mp2rage_script_index));
 end
