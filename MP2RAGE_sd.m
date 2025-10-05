@@ -1,4 +1,4 @@
-function [F0_arr,Zn_arr,finit_arr,all_F0,all_Zn,all_finit,PE_steps]=MP2RAGE_sd_GitHub(TR,T1,T2,PE_steps,number_of_reps,PD)
+function [F0_arr,Zn_arr,finit_arr,all_F0,all_Zn,all_finit,PE_steps]=MP2RAGE_sd(TR,T1,T2,PE_steps,number_of_reps,PD)
 % EPG Simulations for MP2RAGE 
 % Author: Ayse Sila Dokumaci (ayse.dokumaci@kcl.ac.uk) 28.02.2020
 % This function requires EPG_GRE2 and EPG_GRE3 functions modified from the original EPG_GRE.m and the EPG-X functions available at https://github.com/mriphysics/EPG-X
@@ -168,4 +168,5 @@ end
 toc
 
 end
+
 
