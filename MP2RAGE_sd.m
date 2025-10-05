@@ -39,7 +39,7 @@ tic
 inv_eff_asd = 1;
 for b1_scale = 0.5:0.1:1.4 % the loop for B1+ => this one would be 50% to 140% with steps of 10%
         initial_phase = 50;% this was the default value in the sequence implementation
-        mp2rage_phase=RF_phase_cycle(PE_steps,initial_phase)';
+        mp2rage_phase=RF_phase_cycle(PE_steps,initial_phase)';% See corresponding function at https://github.com/mriphysics/EPG-X/tree/master/EPGX-src
         kspace_centre =  65; % 65 for the case with 256 partitions and 6/8 partial Fourier => 256*6/8/3 + 1 = 65
         count = 0;% keeping track of the loops
         for MP2RAGE_TR = 4000% TR_MP2RAGE which is set to 4000 ms 
@@ -168,5 +168,6 @@ end
 toc
 
 end
+
 
 
