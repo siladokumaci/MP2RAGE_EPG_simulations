@@ -3,6 +3,7 @@ function [F0_arr,Zn_arr,finit_arr,all_F0,all_Zn,all_finit,PE_steps]=MP2RAGE_sd_G
 % Author: Ayse Sila Dokumaci (ayse.dokumaci@kcl.ac.uk) 28.02.2020
 % This function requires EPG_GRE2 and EPG_GRE3 functions modified from the original EPG_GRE.m and the EPG-X functions available at https://github.com/mriphysics/EPG-X
 % The references for the EPG-X codes above are:
+% Dokumaci AS, Aitken FR, Sedlacik J, et al. Simultaneous Optimization of MP2RAGE T1-weighted (UNI) and FLuid And White matter Suppression (FLAWS) brain images at 7T using Extended Phase Graph (EPG) Simulations. Magn Reson Med. 2023;89:937-950. doi: 10.1002/mrm.29479.
 % Malik S. (2017, August 8). mriphysics/EPG-X: First public version (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.840023
 % Malik S, Teixeira RPAG, Hajnal JV. Extended phase graph formalism for systems with magnetization transfer and exchange. Magn Reson Med. 2018;80:767-779. 
 
@@ -167,3 +168,4 @@ end
 toc
 
 end
+
