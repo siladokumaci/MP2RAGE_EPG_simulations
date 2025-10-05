@@ -1,7 +1,7 @@
 function [F0_arr,Zn_arr,finit_arr,all_F0,all_Zn,all_finit,PE_steps]=MP2RAGE_sd_GitHub(TR,T1,T2,PE_steps,number_of_reps,PD)
 % EPG Simulations for MP2RAGE 
 % Author: Ayse Sila Dokumaci (ayse.dokumaci@kcl.ac.uk) 28.02.2020
-% This function requires EPG_GRE2 and EPG_GRE3 functions modified from the original EPG_GRE.m and the EPG-X codes available at https://github.com/mriphysics/EPG-X
+% This function requires EPG_GRE2 and EPG_GRE3 functions modified from the original EPG_GRE.m and the EPG-X functions available at https://github.com/mriphysics/EPG-X
 % The references for the EPG-X codes above are:
 % Malik S. (2017, August 8). mriphysics/EPG-X: First public version (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.840023
 % Malik S, Teixeira RPAG, Hajnal JV. Extended phase graph formalism for systems with magnetization transfer and exchange. Magn Reson Med. 2018;80:767-779. 
@@ -165,4 +165,5 @@ for b1_scale = 0.5:0.1:1.4 % the loop for B1+ => this one would be 50% to 140% w
         save(res_filename,'-v7.3')%,'-nocompression')
 end
 toc
+
 end
